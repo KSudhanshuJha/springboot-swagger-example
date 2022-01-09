@@ -56,10 +56,10 @@ public class SwaggerConfig {
 		  public static final ApiInfo DEFAULT_API_INFO = new ApiInfo(
 		      "Awesome API Title", "Awesome API Description", "1.0",
 		      "urn:tos", DEFAULT_CONTACT, 
-		      "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0",Arrays.asList());
+		      "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0");
 
 		  private static final Set<String> DEFAULT_PRODUCES_AND_CONSUMES = 
-		      new HashSet<String>(Arrays.asList("application/json",
+		      new HashSet<>(Arrays.asList("application/json",
 		          "application/xml"));
 
 	private ApiInfo apiInfo() {
